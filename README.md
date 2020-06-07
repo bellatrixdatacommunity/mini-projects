@@ -12,7 +12,8 @@
 ```sh
 git clone https://github.com/bellatrixdatacommunity/mini-projects.git
 
-cd CreditCardFraudDetection
+cd mini-projects
+cd <your-project>
 ```
 
 ### Make a new branch using following command:
