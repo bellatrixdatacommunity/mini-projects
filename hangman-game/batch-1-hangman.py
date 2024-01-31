@@ -48,7 +48,7 @@ while(True):
 					s1[pos]=guess
 					sec="".join(s1)
 			if(sec.find('_')==-1):
-				print("\nYou guessed the correct word!")
+				print("\nYou guessed the correct word!. Its",word)
 				break
 		else:
 			lives-=1
@@ -56,7 +56,7 @@ while(True):
 				print("You have {0} lives left, try again!".format(lives))
 			else:
 				print("You lost!")
-				print("The correct word is: ",word)
+				print("The correct word is:",word)
 	print("\n1.Play again\t\t2.Quit")
 	pa=int(input("-->"))
 	if pa!=1:
